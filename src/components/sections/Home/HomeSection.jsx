@@ -12,6 +12,10 @@ const slides = [
     src: '/home-slides/Untitled9.png',
     alt: 'Creative visual slide two',
   },
+  {
+    src: '/home-slides/RUA.png',
+    alt: 'Creative visual slide three',
+  },
 ]
 
 function HomeSection({ fadeUp }) {
