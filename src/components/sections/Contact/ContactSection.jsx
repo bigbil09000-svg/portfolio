@@ -28,6 +28,8 @@ function ContactSection({ fadeUp, contactItems }) {
       <div className="contact-layout">
         <motion.form
           className="glass-card contact-form"
+          action="https://formspree.io/f/xykqbqlj"
+          method="POST"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.25 }}
